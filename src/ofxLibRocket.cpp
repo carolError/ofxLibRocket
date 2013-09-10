@@ -359,7 +359,7 @@ int ofxLibRocket::getKeyModifier()
 	/*if (keyState[OF_KEY_])
 		key_modifier_state |= Rocket::Core::Input::KM_CAPSLOCK;*/
 
-	if (keyState[OF_KEY_CTRL])
+	if (keyState[OF_KEY_CONTROL])
 		key_modifier_state |= Rocket::Core::Input::KM_CTRL;
 
 	if (keyState[OF_KEY_ALT])
